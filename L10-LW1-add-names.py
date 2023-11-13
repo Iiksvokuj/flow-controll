@@ -6,18 +6,22 @@ count = 0
 while True:
     count += 1
     name = input(str(count) + ") enter someone's name >> ")  #str <"John"> <"Mary">
-    if name == "":
-        break
-    people += f"{name:12}"
+
+    people += f"|{name:12}"
 
     if count % 3 == 0:
-        people += "\n"
+        people += "|\n"
     else:
         people += " "
+    if name == "":
+        break
+
 
 
 print()
-print(people)
+print("-"*14*3)
+print(people, end="")
+print("-"*14*3)
 
 # "John Marry Peter\nJack Jane Victoria\nBob "
 
