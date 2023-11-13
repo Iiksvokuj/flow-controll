@@ -8,7 +8,7 @@ while True:
     name = input(str(count) + ") enter someone's name >> ")  #str <"John"> <"Mary">
     if name == "":
         break
-    people += name
+    people += f"{name:12}"
 
     if count % 3 == 0:
         people += "\n"
