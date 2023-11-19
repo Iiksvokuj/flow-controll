@@ -40,7 +40,7 @@
 #       |            |     |    |           |
 #       v            |     |    |           |
 #    1.False         v     |    |           |
-#                 2.Skip   |    v           |
-#                          | 3.False        v
-#                          v             4.Skip
-#                       5.False
+#                   Skip   |    v           |
+#                          | 2.False        v
+#                          v               Skip
+#                       3.False
