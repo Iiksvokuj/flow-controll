@@ -1,19 +1,27 @@
 # app
 
-#     type: list
+#     type: set
 #       Mo
 #       v
-week = 20,21,22,23,24,25,26  #or week = (20,21,22,23,24,25,26) -> tuple
-week = tuple(week)
+week            = {20,21,22,23,24,25,26}
+# week = set(week)
+training_period = {20,22,27,29,4,6}
 
-print("type of variable type ", type(week))
+# get the training days for this week
 
-# modify
-# week[6] = 31
+week_training = week.intersection(training_period)
+
+print("type of variable type ", type(week_training))
 
 ###########################################
-for day in week:
+print("Training for this week:")
+for day in week_training:
     print (day)
+
+
+
+
+
 
 ## tuple       <>      list 
 #    ^                   ^
