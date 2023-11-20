@@ -11,8 +11,7 @@ salary = 1000     #USD
 # ----> good
 if salary >= 2000:
     print("good")
+elif salary >= 1000:
+    print("normal")
 else:
-    if salary >= 1000:
-        print("normal")
-    else:
-        print("bad")
+    print("bad")
