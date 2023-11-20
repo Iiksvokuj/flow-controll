@@ -6,6 +6,7 @@ FOOD_2_NAME   = "Salad"
 FOOD_2_PRICE  = 15.50
 
 DELIVEY_PRICE = 100.00
+DELIVERY_FREE_LIMIT = 500.00   ## HW2*
 
 ##########################
 # Show menu
@@ -23,24 +24,27 @@ if option == "1":   # if Pizza was chosen
     cost = quantity * FOOD_1_PRICE
     print("cost:",cost)
     delivery = input("do you want delivery (y/n)? ")
-    if cost >= 500.00:
-        DELIVEY_PRICE = 0.00
-    if delivery == "y":
+
+    if delivery == "y" and cost >= DELIVERY_FREE_LIMIT:
+        print("Delivery is FREE!!! Total cost: ",cost)
+    elif delivery == "y" and cost < DELIVERY_FREE_LIMIT:
         cost = cost + DELIVEY_PRICE
-        print("Total with delivery: ", cost)
-        if DELIVEY_PRICE == 0:
-            print("Delivery is Free!!!")
+        print ("Total with delivery: ", cost)
     elif delivery == "n":
-        print("Total cost: ", cost)
+        print("No delivery chosen. Total cost: ", cost)
 if option == "2":   # if Salad was chosen
     print("you've chosen", FOOD_2_NAME)
     quantity = int(input("How many do you want? "))
     cost = quantity * FOOD_2_PRICE
     print("cost: ", cost)
     delivery = input("would you like delivery (y/n)? ")
+    if cost >= DELIVERY_FREE_LIMIT:
+        DELIVEY_PRICE = 0.00
     if delivery == "y":
         cost = cost + DELIVEY_PRICE
         print("Total with delivery: ", cost)
+        if DELIVEY_PRICE == 0.00:
+            print("Delivery is Free!!!")
     elif delivery == "n":
-        print ("Total cost: ", cost)
+        print ("Total cost without delivery: ", cost)
 ##############################
