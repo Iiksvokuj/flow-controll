@@ -2,15 +2,15 @@
 # new - battery
 
 batteryCharge      = 70
-consumptionBattery = 10  #%/m
+consumptionRate = 10  #%/m
 
 steps              = 0   # m
 step               = 1   # m
 
 # 2. ITERATIVE - SIMULATION
 # ######## STEP - BEGIN ########
-steps = step + step
-batteryCharge = batteryCharge - consumptionBattery
+steps          +=  step
+batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
 # ######## STEP - END   ########
 
