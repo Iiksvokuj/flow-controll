@@ -12,46 +12,62 @@ step               = 1   # m
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
 
 # ######## STEP - BEGIN ########
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
 
 # ######## STEP - BEGIN ########
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
 
 # ######## STEP - BEGIN ########
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
 
 # ######## STEP - BEGIN ########
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
 
 # ######## STEP - BEGIN ########
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
 
 # ######## STEP - BEGIN ########
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
 
 # ######## STEP - BEGIN ########
 steps          +=  step
 batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+if batteryCharge <= 10:
+    print("WARNING!!! Need to charge")
 # ######## STEP - END   ########
