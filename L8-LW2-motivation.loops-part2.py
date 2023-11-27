@@ -14,3 +14,44 @@ batteryCharge  -=  consumptionRate
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
 # ######## STEP - END   ########
 
+# ######## STEP - BEGIN ########
+steps          +=  step
+batteryCharge  -=  consumptionRate
+print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+# ######## STEP - END   ########
+
+# ######## STEP - BEGIN ########
+steps          +=  step
+batteryCharge  -=  consumptionRate
+print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+# ######## STEP - END   ########
+
+# ######## STEP - BEGIN ########
+steps          +=  step
+batteryCharge  -=  consumptionRate
+print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+# ######## STEP - END   ########
+
+# ######## STEP - BEGIN ########
+steps          +=  step
+batteryCharge  -=  consumptionRate
+print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+# ######## STEP - END   ########
+
+# ######## STEP - BEGIN ########
+steps          +=  step
+batteryCharge  -=  consumptionRate
+print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+# ######## STEP - END   ########
+
+# ######## STEP - BEGIN ########
+steps          +=  step
+batteryCharge  -=  consumptionRate
+print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+# ######## STEP - END   ########
+
+# ######## STEP - BEGIN ########
+steps          +=  step
+batteryCharge  -=  consumptionRate
+print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
+# ######## STEP - END   ########
