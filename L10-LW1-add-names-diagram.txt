@@ -1,0 +1,10 @@
+
+Lektion 10 (30.10.2023) add-names Diagramm.
+
+X-->-------People[list of name(n)]-->---->--while           ┌->--[if (n>3) -> new row in list of People]-->Print (People)
+                        ^                     |             |
+                        |                     V             |
+                        |             Input (Enter Name)    |
+                        |                |          |       |
+                        |                V          V       |
+                        └-<-----------name(n)    no name-->-┘
