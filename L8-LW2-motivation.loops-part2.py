@@ -9,7 +9,7 @@ step               = 1   # m
 
 # 2. ITERATIVE - SIMULATION
 # ######## STEP - BEGIN ########
-steps = step
+steps = step + step
 batteryCharge = batteryCharge - consumptionBattery
 print("STEPS: ", steps, " CHARGE: ", batteryCharge, "%")
 # ######## STEP - END   ########
