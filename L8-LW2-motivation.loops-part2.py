@@ -9,7 +9,7 @@ step               = 1   # m
 
 # DRY - Don't Repeat Yourself
 # 2. ITERATIVE - SIMULATION
-while True:
+while batteryCharge > 10:
     # ######## STEP - BEGIN ########
     steps          +=  step
     batteryCharge  -=  consumptionRate
