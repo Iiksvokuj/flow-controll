@@ -7,10 +7,14 @@
 # - shortcuts
 
 
-start = 10
-end   = 1
+start = 1
+end   = 10
 n = start
 
-while n >= end:
+x = 3
+
+while n <= end:
     print(n)
-    n -= 1
+    if n == x:
+        print('Found!')
+    n += 1
