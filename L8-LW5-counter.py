@@ -7,10 +7,10 @@
 # - shortcuts
 
 
-start = 1
-end   = 10
+start = 10
+end   = 1
 n = start
 
-while n <= end:
+while n >= end:
     print(n)
-    n += 1
+    n -= 1
