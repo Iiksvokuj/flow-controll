@@ -4,11 +4,13 @@
 # X---------v---...---v---...---v--->
 # 0         1         10       100
 
+from random import randint
 
 ####### Testing case
-distance_km = -1
-while distance_km <= 101:
-
+n = 1
+# distance_km = -1
+while n <= 10:
+    distance_km = randint(-20,200)
     ####### ALGO ##########
     # distance_km = float(input('Enter distance (km): '))
     print("The distance", distance_km,"km\nis:")
@@ -20,7 +22,8 @@ while distance_km <= 101:
         print(" - far")
     else:
         print(" - very far")
+    print()
     ####### ALGO ##########
     
-    distance_km += 1
+    n += 1
 ####### Testing case
