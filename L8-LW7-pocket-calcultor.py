@@ -18,6 +18,12 @@ operand_2 = int(input('> '))
 result = 0
 if operation == '+':
     result = operand_1 + operand_2
+if operation == '-':
+    result = operand_1 - operand_2
+if operation == '*':
+    result = operand_1 * operand_2
+if operation == '/':
+    result = operand_1 / operand_2
 
 
 
