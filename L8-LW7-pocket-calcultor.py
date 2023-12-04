@@ -9,7 +9,8 @@
 
 # + print formatting
 
-print("",1000)
-print(" ",100)
-print("  ",10)
-print("   ",1)
+n = 10000
+m = 100
+
+print(f"{n:10}")
+print(f"{m:10}")
