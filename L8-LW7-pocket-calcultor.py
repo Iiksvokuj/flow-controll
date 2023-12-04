@@ -15,6 +15,10 @@ operand_1 = int(input('> '))
 operation = input('> ')
 operand_2 = int(input('> '))
 
-result = operand_1 + operand_2
+if operation == '+':
+    result = operand_1 + operand_2
+
+
+
 print(f"{result:20}")
 
