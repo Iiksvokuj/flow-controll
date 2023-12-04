@@ -9,8 +9,12 @@
 
 # + print formatting
 
-n = 10000
-m = 100
+# a + b
 
-print(f"{n:10}")
-print(f"{m:10}")
+operand_1 = int(input('> '))
+operation = input('> ')
+operand_2 = int(input('> '))
+
+result = operand_1 + operand_2
+print(f"{result:20}")
+
