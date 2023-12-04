@@ -15,6 +15,7 @@ operand_1 = int(input('> '))
 operation = input('> ')
 operand_2 = int(input('> '))
 
+result = 0
 if operation == '+':
     result = operand_1 + operand_2
 
