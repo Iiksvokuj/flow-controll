@@ -27,5 +27,5 @@ while True:
 
 
 
-    print(f"{operand_1:20}\n{operation}\n{operand_2:20}\n=\n{result:20}")
+    print(f"{operand_1:20}\n{operation:>20}\n{operand_2:20}\n--------------------\n{result:20}")
 
