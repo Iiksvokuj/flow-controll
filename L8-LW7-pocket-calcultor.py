@@ -10,22 +10,22 @@
 # + print formatting
 
 # a + b
+while True:
+    operand_1 = int(input('> '))
+    operation = input('> ')
+    operand_2 = int(input('> '))
 
-operand_1 = int(input('> '))
-operation = input('> ')
-operand_2 = int(input('> '))
-
-result = 0
-if operation == '+':
-    result = operand_1 + operand_2
-if operation == '-':
-    result = operand_1 - operand_2
-if operation == '*':
-    result = operand_1 * operand_2
-if operation == '/':
-    result = operand_1 / operand_2
+    result = 0
+    if operation == '+':
+        result = operand_1 + operand_2
+    if operation == '-':
+        result = operand_1 - operand_2
+    if operation == '*':
+        result = operand_1 * operand_2
+    if operation == '/':
+        result = operand_1 / operand_2
 
 
 
-print(f"{result:20}")
+    print(f"{result:20}")
 
