@@ -1,5 +1,5 @@
 # interactive calculator
-
+from os import system
 # CLI - textual terminal
 
 # input values
@@ -14,6 +14,8 @@ while True:
     operand_1 = int(input('> '))
     operation = input('> ')
     operand_2 = int(input('> '))
+
+    system('cls')
 
     result = 0
     if operation == '+':
