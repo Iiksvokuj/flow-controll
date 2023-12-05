@@ -10,6 +10,7 @@ from os import system
 # + print formatting
 
 # a + b
+system('cls')
 while True:
     operand_1 = int(input('> '))
     operation = input('> ')
