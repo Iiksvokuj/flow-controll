@@ -12,6 +12,11 @@ from os import system
 # a + b
 system('cls')
 while True:
+    answer = input('again (y/n) ? ')
+    system('cls')
+    if answer != 'y':
+        break
+
     operand_1 = int(input('> '))
     operation = input('> ')
     operand_2 = int(input('> '))
