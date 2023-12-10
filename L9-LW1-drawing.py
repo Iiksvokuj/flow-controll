@@ -18,7 +18,7 @@ system("cls")
 
 # algo
 
-print(  (" "*5 + "*") * 5 )
+print(  (" "*5 + "*" + "\n") * 5 )
 
 # \algo
 
