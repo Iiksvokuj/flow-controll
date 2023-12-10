@@ -19,7 +19,7 @@ system("cls")
 # algo
 
 for n in range(5): # [0, 2, 2, 3, 4]
-    print(" "*5 + "*")
+    print(" "*n + "*")
 
 # \algo
 
