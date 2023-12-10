@@ -18,11 +18,7 @@ system("cls")
 
 # algo
 
-print(" "*5 + "*")
-print("     *")
-print("     *")
-print("     *")
-print("     *")
+print(  " "*5 + "*" * 5 )
 
 # \algo
 
