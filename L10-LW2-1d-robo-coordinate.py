@@ -9,7 +9,10 @@ roboX = 5
 x = 1
 print("\n")
 while x <= length:
-    print("-", end = "")    #\n
+    if x == roboX:
+        print("R", end = "")    #\n
+    else:
+        print("-", end = "")    #\n
     x += 1
 
 print("\n")
