@@ -6,6 +6,16 @@ length = 20
 roboX = 5
 bombX = 15
 
+# HW1:
+#    +  add "hp" (health): default: 100% , when bomb: -50%
+#    +- game over -> hp = 0 !!!
+#    +  show hp
+#    +  many bombs
+#    +  hearts (+ 20%)
+#    +  limits (a) teleport / (b) stop
+#    +  charge 100% , each step: - 5%
+#    +  money bag (score)
+
 while True:
     system("cls")
 
