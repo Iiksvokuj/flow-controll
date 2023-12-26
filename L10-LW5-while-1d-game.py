@@ -1,8 +1,10 @@
 # 1d game
 # ~~~x~~W~~~
 
-w = 4
+w = 8
 x = 2
+
+# ######## DRAW MAP ########
 print()
 
 n = 1
@@ -15,5 +17,5 @@ while n <= 10:
         print("~", end = " ")
     n += 1
 
-
 print("\n")
+# ######## DRAW MAP ########
