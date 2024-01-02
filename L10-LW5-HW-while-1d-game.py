@@ -34,8 +34,8 @@ while loop:
         direction = input("enter direction(a,d): ")
         # HW1: add limits conditions
         # HW2: add condition mine, "BOOOM!!!" STOP MAIN LOOP
-        if direction == "a":
+        if direction == "a" and w > 1:
             w -= 1   # w = w - 1
-        if direction == "d":
+        if direction == "d" and w < 10:
             w += 1   # w = w + 1
         # ####### INTERACTION ######
